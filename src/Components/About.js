@@ -5,18 +5,18 @@ import Mission from "../images/our-mission.png"
 function About() {
     return (
         <div>
-            <section class="inner-slider">
-                <div class="slider-heading aos-init aos-animate" data-aos="fade-in">
+            <section className="inner-slider">
+                <div className="slider-heading aos-init aos-animate" data-aos="fade-in">
                     About US
                 </div>
             </section>
 
-            <section class="about-us">
-                <div class="container aos-init aos-animate" data-aos="fade-up">
-                    <div class="heading">
+            <section className="about-us">
+                <div className="container aos-init aos-animate" data-aos="fade-up">
+                    <div className="heading">
                         WE ARE GO PURE
                     </div>
-                    <p data-aos="fade-in" class="aos-init aos-animate">
+                    <p data-aos="fade-in" className="aos-init aos-animate">
                         Go Pure is an online/offline platform that believes in fulfilling temptations and cravings by having well-known sweets, namkeens, snacks, cookies, dry fruits, pickles, gajak, revri, etc. from the topmost brands all over India, which are an integral part of our lives. We are efficient enough to feed your hunger and deliver a wide variety of cuisines, snacks, and desserts with user-friendly, forbidden tastes and mesmerizing flavors covering entire India.
                     </p>
                     <p>
@@ -34,22 +34,22 @@ function About() {
                 </div>
             </section>
 
-            <section class="our-vision light-bg">
-                <div class="container aos-init aos-animate" data-aos="fade-up">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <figure class="p-20 pl-0">
-                                <img src={Vision} class="img-fluid img-thumbnail p-0 pt-10" alt="" />
+            <section className="our-vision light-bg">
+                <div className="container aos-init aos-animate" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <figure className="p-20 pl-0">
+                                <img src={Vision} className="img-fluid img-thumbnail p-0 pt-10" alt="" />
                             </figure>
                         </div>
-                        <div class="col-sm-8">
-                            <div class="heading text-start pl-0 mt-40">Our Vision</div>
-                            <p data-aos="fade-in" class="text-start aos-init aos-animate mt-40">
+                        <div className="col-sm-8">
+                            <div className="heading text-start pl-0 mt-40">Our Vision</div>
+                            <p data-aos="fade-in" className="text-start aos-init aos-animate mt-40">
                                 Our aim is to process with the same zeal and to create a renowned brand locally and globally that imparts happiness and enjoyment loaded with sweet, salty, crispy, crunchy, and spicy foods to our customers. Customer satisfaction is our utmost priority, with the huge dream of providing customers with the finest sweet treats and exceeding customer expectations. We pledge to uphold their ideology and thought process for future generations.
                             </p>
 
-                            <div class="mt-40">
-                                <a href="our-vision.html" class="btn btn-success">Read More..</a>
+                            <div className="mt-40">
+                                <a href="our-vision.html" className="btn btn-success">Read More..</a>
                             </div>
                         </div>
                     </div>
@@ -57,23 +57,23 @@ function About() {
             </section>
 
 
-            <section class="our-mission">
-                <div class="container aos-init aos-animate" data-aos="fade-up">
+            <section className="our-mission">
+                <div className="container aos-init aos-animate" data-aos="fade-up">
 
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <div class="heading text-start pl-0 mt-40">Our Mission</div>
-                            <p data-aos="fade-in" class="text-start aos-init aos-animate mt-40">
+                    <div className="row">
+                        <div className="col-sm-8">
+                            <div className="heading text-start pl-0 mt-40">Our Mission</div>
+                            <p data-aos="fade-in" className="text-start aos-init aos-animate mt-40">
                                 With a remark of Purity, Originality & Customer satisfaction, we aim to deliver the best possible high-quality sweets at the lowest prices in the market. When it comes to contributing richness to any occasion, being the chosen choice is to be an integral and essential part of any happy and cheerful occasion in any family, whether they live abroad or in India. We want to be renowned as "Traditional, Authentic, Elegant Sweets & Snacks, Desi Ghee, Pickle Providers," so we're always working to improve and expand the diversity of our flavors and tastes.
                             </p>
 
-                            <div class="mt-40">
-                                <a href="our-mission.html" class="btn btn-success">Read More..</a>
+                            <div className="mt-40">
+                                <a href="our-mission.html" className="btn btn-success">Read More..</a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <figure class="p-20 pr-0">
-                                <img src={Mission} class="img-fluid img-thumbnail p-0 pt-10" alt="" />
+                        <div className="col-sm-4">
+                            <figure className="p-20 pr-0">
+                                <img src={Mission} className="img-fluid img-thumbnail p-0 pt-10" alt="" />
                             </figure>
                         </div>
                     </div>
