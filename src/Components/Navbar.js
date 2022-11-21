@@ -1,5 +1,6 @@
 import React from 'react';
 import sitelogo from '../images/logo.png';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -46,22 +47,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="about-us.html">About Us</a>
+                <NavLink className="nav-link" to="/about">About Us</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="taste.html">Taste</a>
+                <NavLink className="nav-link" to="/products">Products</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="partners.html">Partners</a>
+                <NavLink className="nav-link" to="/team">Our Team</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="our-team.html">Our Team</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="contact-us.php">Contact Us</a>
+                <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
               </li>
             </ul>
           </div>
